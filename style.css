@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu ul li a {
+	display:block;
+	float:left;
+	height:50px;
+	background-color:#3498db;
+	text-align:center;
+	padding:30px 40px 0 80px;
+	position:relative;
+	margin:0 10px 0 0;
+	font-size:20px;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+#menu ul {
+	list-style-type:none;
+}
+
+#menu ul li a:hover {
+	background: #fa5ba5;
+}
+	#menu ul li a:hover:after {
+		border-left-color: #fa5ba5;
+	}
