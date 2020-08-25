@@ -1,6 +1,24 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+header h1 {
+	font-size: 48px;
+	font-family: 'Londrina Solid', cursive;
+	text-align: center;
+}
+
+#menu {
+	overflow: auto;
+}
+
 #menu ul li a {
 	display:block;
 	float:left;
@@ -9,7 +27,7 @@
 	text-align:center;
 	padding:30px 40px 0 80px;
 	position:relative;
-	margin:0 10px 0 0;
+	margin:0 20px 0 0;
 	font-size:20px;
 	text-decoration:none;
 	color:#ffffff;
@@ -25,3 +43,24 @@
 	#menu ul li a:hover:after {
 		border-left-color: #fa5ba5;
 	}
+
+main {
+	
+	height: 600px;
+	margin-top: 35px;
+	padding: 0 12px;
+}
+
+main h2 {
+	font-family: 'Londrina Solid', cursive;
+}
+
+main p {
+
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
